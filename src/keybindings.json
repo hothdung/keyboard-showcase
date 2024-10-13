@@ -1,0 +1,19 @@
+{
+  "shortcuts": [
+    {
+      "ids": ["navigation"],
+      "keys": ["alt+W", "alt+H", "alt+A"],
+      "description": "Navigating through the tabs"
+    },
+    {
+      "ids": ["welcome-message"],
+      "keys": ["shift+alt+W"],
+      "description": "Showing welcome message in color"
+    },
+    {
+      "ids": ["show-image"],
+      "keys": ["alt+P"],
+      "description": "Show image"
+    }
+  ]
+}
