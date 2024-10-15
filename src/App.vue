@@ -14,15 +14,11 @@
 </template>
 
 <script setup lang="ts">
-import { RouterLink, RouterView, useRoute } from 'vue-router'
+import { RouterLink, RouterView} from 'vue-router'
 import router from './router'
 import { useShortcutHandler } from './composables/useShortcutHandler'
 
 const selection = useShortcutHandler('navigation', handleNavigation)
-
-function onClick(): void {
-  router.push({ name: 'highlight' })
-}
 
 function handleNavigation(): void {
   switch (selection.value) {
