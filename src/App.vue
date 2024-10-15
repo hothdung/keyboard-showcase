@@ -18,7 +18,6 @@ import { RouterLink, RouterView, useRoute } from 'vue-router'
 import router from './router'
 import { useShortcutHandler } from './composables/useShortcutHandler'
 
-const route = useRoute()
 const selection = useShortcutHandler('navigation', handleNavigation)
 
 function onClick(): void {
